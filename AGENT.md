@@ -8,8 +8,8 @@
 ## 0. 내 설정 (이 부분만 사람이 편집)
 
 ```yaml
-owner: 메이커준
-pages_url: https://imakerjun.github.io/ai-newsletter   # 내 GitHub Pages 주소. 저장소 Settings → Pages에서 확인
+owner: 욤욤
+pages_url: https://mjyomyom.github.io/ai-newsletter   # 내 GitHub Pages 주소. 저장소 Settings → Pages에서 확인
 cadence: 매일 아침 08:00 (Asia/Seoul)
 interests:                      # 관심사 = 탭. 추가/삭제 자유. 2~5개 권장.
   - id: news
@@ -24,25 +24,6 @@ interests:                      # 관심사 = 탭. 추가/삭제 자유. 2~5개 
     tint: green
     window_hours: 24
     focus: 직전 24시간 소식 중 비개발자가 ‘먼저 적용·시도해볼 만한 것’ — 주요 기능 업데이트, 바로 쓰는 활용법, 새 도구. 기술 깊이보다 ‘오늘 해볼 수 있는가’.
-  # ↓ 직무별 탭: 속보가 아니라 '현업 활용 사례'를 큐레이션(상시 유효). window_hours 없음.
-  - id: planner
-    label: 기획자를 위한 AI 소식
-    icon: 💡
-    tint: purple
-    kind: role            # 역할 활용 사례 — 날짜 필터 대신 큐레이션
-    focus: 시장·사용자 조사, 기획서 초안, 아이디어 구체화 등 기획자가 오늘 업무에 바로 쓰는 AI 활용
-  - id: data
-    label: 데이터 분석을 위한 AI 소식
-    icon: 📊
-    tint: orange
-    kind: role
-    focus: 자연어로 표에 묻기·수식/SQL 초안·데이터 정리·결과를 쉬운 말로 설명. 'AI 결과는 사람이 검증' 원칙 강조
-  - id: pm
-    label: PM을 위한 AI 소식
-    icon: 📋
-    tint: pink
-    kind: role
-    focus: PRD 초안·회의록 정리·피드백 분류·릴리스 노트 등 PM 업무 활용. '판단은 사람이, 정리는 AI가'
 persona_context: |             # '나를 위한 한 줄'을 쓸 때 참고할 독자 맥락
   회사의 비개발 직군을 포함한 전사 임직원 누구나. 전문 용어는 풀어 쓰고,
   "이게 내 업무에 어떻게 쓰이는가"를 한 문장으로 연결할 것. 과장·홍보톤 금지.
